@@ -1,46 +1,47 @@
 export default {
   nav: {
-    logo: 'CC',
+    logo: 'k41n3w',
     links: [
-      { text: 'Work', to: 'mywork' },
-      { text: 'Contact', to: 'mycontact' },
+      { text: 'GitHub', to: 'https://github.com/k41n3w' },
+      { text: 'Medium', to: 'https://medium.com/@caio_ramos' },
+      { text: 'Twiter', to: 'https://twitter.com/CaioRam51024555' },
     ],
   },
   header: {
     img:
-      'https://images.unsplash.com/photo-1555952517-2e8e729e0b44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1300&q=80',
-    text: ['Hi!', "It's me Random.", 'I am '],
+      'eu.png',
+    text: ['Hi!', "It's me Caio Ramos.", 'I am '],
     typical: [
-      'web developer. 🖥',
+      'Software Engineer.',
       2000,
-      'Youtuber. 📹',
+      'Writter.',
       2000,
-      'Mobile Developer',
+      'Teacher.',
       2000,
     ],
-    btnText: 'Discover More',
+    btnText: 'Find Out More',
   },
 
   stack: {
     title: 'Stack',
     tech: [
       {
-        img: process.env.PUBLIC_URL + '/assets/mongo.png',
-        alt: 'mongodb',
+        img: process.env.PUBLIC_URL + '/assets/Ruby-on-rails.png',
+        alt: 'Ruby on Rails',
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/aws.png',
+        alt: 'Aws Services',
+      },
+      {
+        img: process.env.PUBLIC_URL + '/assets/docker.png',
+        alt: 'Docker',
       },
       {
         img: process.env.PUBLIC_URL + '/logo512.png',
-        alt: 'react',
-      },
-      {
-        img: process.env.PUBLIC_URL + '/assets/express.png',
-        alt: 'express',
-      },
-      {
-        img: process.env.PUBLIC_URL + '/assets/node.png',
-        alt: 'node',
+        alt: 'Newbie in react',
       },
     ],
-    desc: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only`,
+    desc: `I work with IT since 2010 and became a programmer in 2017. I have experience with Relational Banks (SQL's), Ruby on Rails, AWS Services, Docker, TDD, Agility and I am starting my studies in the React world. I am currently studying Data Science at UNIVESP, and I have an almost complete degree as a Data Scientist at PUC Minas.`,
   },
 };

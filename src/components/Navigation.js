@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <div
       style={{
-        background: '#091c29',
+        background: '#374151',
       }}
     >
       <div className="flex items-center justify-between w-10/12 mx-auto py-3 text-white font-dosis">
@@ -17,7 +17,9 @@ export default function Navigation() {
           {content.nav.links.map((link, index) => {
             return (
               <span key={index} className="text-xl mr-4">
-                {link.text}
+                <a href={link.to} target="_blank">
+                  {link.text}
+                </a>
               </span>
             );
           })}

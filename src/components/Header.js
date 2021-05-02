@@ -16,15 +16,14 @@ export default function Header() {
     <div
       className="min-h-screen flex items-center justify-center"
       style={{
-        background: '#091c29',
+        background: '#000000',
       }}
     >
       <div className="w-10/12 mx-auto flex flex-col md:flex-row-reverse items-center justify-between">
-        <div className="w-full md:w-2/5">
+        <div className="relative">
           <LazyLoadImage
             src={content.header.img}
             effect="blur"
-            placeholderSrc={process.env.PUBLIC_URL + '/logo512.png'}
           />
         </div>
         <div className="text-white font-dosis text-center md:text-left">
@@ -50,7 +49,7 @@ export default function Header() {
             />
           </h1>
           <ScrollLink to="stack" smooth={true}>
-            <button className=" animate-float bg-indigo-500 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
+            <button className=" animate-float bg-gray-700 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
               {content.header.btnText}
             </button>
           </ScrollLink>
