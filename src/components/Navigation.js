@@ -17,7 +17,7 @@ export default function Navigation() {
           {content.nav.links.map((link, index) => {
             return (
               <span key={index} className="text-xl mr-4">
-                <a href={link.to} target="_blank">
+                <a href={link.to}>
                   {link.text}
                 </a>
               </span>
