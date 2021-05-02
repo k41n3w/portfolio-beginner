@@ -26,7 +26,7 @@ export default {
     title: 'Stack',
     tech: [
       {
-        img: process.env.PUBLIC_URL + '/assets/Ruby-on-rails.png',
+        img: process.env.PUBLIC_URL + '/assets/ruby-on-rails.png',
         alt: 'Ruby on Rails',
       },
       {
