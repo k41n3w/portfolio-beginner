@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 Run
 
 ```
@@ -11,4 +10,5 @@ tailwind
 ```
     yarn run build:css
 ```
->>>>>>> finish
+
+Link to page: https://k41n3w-portfolio.vercel.app/
