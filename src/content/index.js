@@ -2,6 +2,7 @@ export default {
   nav: {
     logo: 'k41n3w',
     links: [
+      { text: 'LinkedIn', to: 'https://www.linkedin.com/in/caio-ramos-83271943/' },
       { text: 'GitHub', to: 'https://github.com/k41n3w' },
       { text: 'Medium', to: 'https://medium.com/@caio_ramos' },
       { text: 'Twitter', to: 'https://twitter.com/k41n3w' },
