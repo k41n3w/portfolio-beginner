@@ -4,7 +4,7 @@ export default {
     links: [
       { text: 'GitHub', to: 'https://github.com/k41n3w' },
       { text: 'Medium', to: 'https://medium.com/@caio_ramos' },
-      { text: 'Twiter', to: 'https://twitter.com/CaioRam51024555' },
+      { text: 'Twitter', to: 'https://twitter.com/k41n3w' },
     ],
   },
   header: {
