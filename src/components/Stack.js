@@ -8,7 +8,7 @@ export default function Stack() {
       className="min-h-screen flex flex-col items-center justify-center bg-gray-700 font-dosis"
       id="stack"
     >
-      <h1 className="text-5xl font-bold text-white">Stack I use</h1>
+      <h1 className="text-5xl font-bold text-white">Stacks where I have more experience</h1>
       <div className="flex flex-wrap justify-center mt-10">
         {content.stack.tech.map((tech, index) => {
           return (
