@@ -8,7 +8,7 @@ export default function Stack() {
       className="min-h-screen flex flex-col items-center justify-center bg-gray-700 font-dosis"
       id="stack"
     >
-      <h1 className="text-5xl font-bold text-white">Stacks where I have more experience</h1>
+      <h1 className="text-2xl font-bold text-white text-center">Stacks where I have more experience in</h1>
       <div className="flex flex-wrap justify-center mt-10">
         {content.stack.tech.map((tech, index) => {
           return (
@@ -22,7 +22,7 @@ export default function Stack() {
           );
         })}
       </div>
-      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 text-white">
+      <p className="w-11/12 md:max-w-xl text-xl text-center mt-10 my-10 text-white">
         {content.stack.desc}
       </p>
     </div>
