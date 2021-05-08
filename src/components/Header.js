@@ -26,7 +26,7 @@ export default function Header() {
             effect="blur"
           />
         </div>
-        <div className="text-white font-dosis text-center md:text-left">
+        <div className="text-white font-dosis text-center items-center md:mr-2">
           <h2
             className={`${
               animated ? '' : 'translate-y-10 opacity-0'
@@ -39,9 +39,9 @@ export default function Header() {
           <h1
             className={`${
               animated ? '' : 'translate-y-10 opacity-0'
-            }  transform transition duration-2000 ease-in-out font-bold text-2xl text-gray-500`}
+            }  transform transition duration-2000 ease-in-out font-bold text-2xl text-center text-gray-500`}
           >
-            {content.header.text[2]}{' '}
+            {content.header.text[2]}
             <Typical
               steps={content.header.typical}
               loop={Infinity}
@@ -49,7 +49,7 @@ export default function Header() {
             />
           </h1>
           <ScrollLink to="stack" smooth={true}>
-            <button className=" animate-float bg-gray-700 px-10 py-3 text-xl uppercase mt-10 rounded-lg">
+            <button className="animate-float bg-gray-700 px-10 py-3 text-xl uppercase mt-10 rounded-lg items-center">
               {content.header.btnText}
             </button>
           </ScrollLink>
