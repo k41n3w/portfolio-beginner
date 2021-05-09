@@ -13,7 +13,7 @@ export default function Experience() {
   return (
     <div
       className="min-h-screen flex flex-col items-center justify-center bg-black font-dosis"
-      id="stack"
+      id="experience"
     >
       <h1 className="text-5xl font-bold text-white mt-20">Companies I've worked in</h1>
       <div className="flex flex-col justify-center mt-10">
@@ -23,7 +23,7 @@ export default function Experience() {
             <div data-aos='zoom-in-right'>
               <div className="flex flex-row justify-center mt-10">
                 <span
-                  className='w-40 h-40 bg-white shadow-2xl mb-6 mr-10 mb-20 flex items-center p-5'
+                  className='w-40 h-40 bg-white shadow-2xl mr-10 mb-20 flex items-center p-5'
                 >
                   <img src={company.img} alt={company.alt} />
                 </span>

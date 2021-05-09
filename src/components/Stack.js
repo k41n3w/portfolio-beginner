@@ -5,10 +5,10 @@ import content from '../content';
 export default function Stack() {
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center bg-gray-700 font-dosis"
+      className="min-h-full flex flex-col items-center justify-center bg-gray-700 font-dosis"
       id="stack"
     >
-      <h1 className="text-2xl font-bold text-white text-center">Stacks where I have more experience in</h1>
+      <h1 className="text-2xl font-bold text-white text-center mt-20">Stacks where I have more experience in</h1>
       <div className="flex flex-wrap justify-center mt-10">
         {content.stack.tech.map((tech, index) => {
           return (

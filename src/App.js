@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Stack from './components/Stack';
 import Experience from './components/Experience';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Stack />
       <Experience />
+      <Contact />
     </div>
   );
 }
