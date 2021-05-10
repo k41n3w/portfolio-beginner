@@ -25,7 +25,7 @@ export default function Contact() {
             </div>
           </div>
           <div class="w-full lg:w-3/6">
-            <img src={content.header.img_contact} class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
+            <img src={content.header.img_contact} alt="Me" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" />
           </div>
       </div>
     </div>
