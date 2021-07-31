@@ -65,5 +65,10 @@ export default {
       alt: 'Portal Solar',
       text: `In September 2020 I accepted the challenge of helping to build new tools and improve the current ones of Portal Solar, a company that operates in the area of ​​renewable resources. Here I help as a Full Stack developer, working mainly with Ruby on Rails, React, Salesforce, Apex and SoQl.`
     },
+    {
+      img: process.env.PUBLIC_URL + '/assets/caiena.png',
+      alt: 'Caiena Dev',
+      text: `In order to continue improving my knowledge of Ruby, architecture and software processes I decided it was time to look for new challenges and in May 2021 I started my new job at Caiena. I am very happy and learning as much as I always dreamed.`
+    },
   ]
 };
